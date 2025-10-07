@@ -1,0 +1,10 @@
+This use case diagram illustrates how different actors interact with the **ATM Machine System**.
+The main actors are:
+
+* **Customer** – performs core banking operations like cash withdrawal, deposit, fund transfer, PIN change, and balance inquiry.
+* **Technician** – handles maintenance tasks such as refilling or removing cash, diagnosing issues, and updating software.
+* **Admin** – manages ATM settings and generates reports.
+* **Bank System** – validates cards, approves transactions, updates balances, and detects fraud.
+* **Security System** – monitors suspicious activity, triggers alarms, and blocks cards when needed.
+
+The diagram also uses **include** (mandatory processes like authentication) and **extend** (conditional processes like low balance or fraud detection) relationships to show system behavior and dependencies.
